@@ -24,18 +24,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "CenterCam",
+                    "name": "Jump",
                     "type": "Button",
-                    "id": "c3a8dd91-e1b9-4619-9980-d30cf1e19f73",
+                    "id": "392ed1d9-b757-4a47-9d48-3ea2bf9bc68c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Camera",
+                    "name": "Crouch",
                     "type": "Button",
-                    "id": "67b632bc-27fc-4b37-92c9-bca3eb11dbe1",
+                    "id": "ca2a6deb-a64c-478b-8676-579b0c51677c",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -46,7 +46,7 @@
                 {
                     "name": "",
                     "id": "11ba0092-6e0a-4b5a-af80-9f70399ed5ab",
-                    "path": "<Gamepad>/leftStickPress",
+                    "path": "<Keyboard>/rightShift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -122,23 +122,23 @@
                 },
                 {
                     "name": "",
-                    "id": "04378e40-7676-4898-b37b-f27ce26d3790",
-                    "path": "<Gamepad>/rightStickPress",
+                    "id": "2f1cf53b-47ba-4ac1-9c14-bb19b4212607",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "CenterCam",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "3a064217-4e0a-494d-855a-3af7e51c2d31",
-                    "path": "",
+                    "id": "519a71fd-d28f-403f-a30b-bda6b2c5cb04",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Camera",
+                    "action": "Crouch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
