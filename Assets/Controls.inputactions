@@ -46,7 +46,7 @@
                 {
                     "name": "",
                     "id": "11ba0092-6e0a-4b5a-af80-9f70399ed5ab",
-                    "path": "<Keyboard>/rightShift",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -135,6 +135,17 @@
                     "name": "",
                     "id": "519a71fd-d28f-403f-a30b-bda6b2c5cb04",
                     "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c7c240a-7507-4159-a96d-46cdc97900e6",
+                    "path": "<Keyboard>/ctrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
