@@ -18,12 +18,12 @@ public class Run : MonoBehaviour
     {
         if (Input.GetButton("Run"))
         {
-            controller._speed = 20;
+            controller._speed = 0.5f;
             Debug.Log("run");
         }
         if(Input.GetButtonUp("Run"))
         {
-            controller._speed = 15;
+            controller._speed = 0.2f;
         }
     }
 }

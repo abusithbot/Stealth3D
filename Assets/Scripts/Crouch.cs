@@ -19,12 +19,12 @@ public class Crouch : MonoBehaviour
     {
         if(Input.GetButton("Crouch"))
         {
-            playerController._speed = 10;
+            playerController._speed = 0.1f;
             Debug.Log("coucher");
         }
         if(Input.GetButtonUp("Crouch"))
         {
-            playerController._speed = 15;
+            playerController._speed = 0.2f;
         }
     }
 }
