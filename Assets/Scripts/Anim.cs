@@ -21,10 +21,16 @@ public class Anim : MonoBehaviour
     {
         anim.SetFloat("Forward/Backward", rb.velocity.magnitude);
         anim.SetFloat("Left/Right", rb.velocity.magnitude);
-        anim.SetBool("Walk",true);
+
+        if (Input.GetButton("up"))
+        {
+            anim.SetBool("Walk", true);
+        }
+
+        /*anim.SetBool("Walk",true);
         anim.SetBool("Run",true);
         anim.SetBool("Crouch",true);
         float v = rb.velocity.magnitude;
-        if(v > 0.1) Debug.Log(v);
+        if(v > 0.1) Debug.Log(v);*/
     }
 }
