@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     Vector2 mouvement;
     private GroundDetection _groundDetection;
     private Rigidbody rb;
+    public bool _isWalking;
+    public bool _isRunning;
     // Start is called before the first frame update
 
     private void Awake()
@@ -27,6 +29,8 @@ public class PlayerController : MonoBehaviour
        float y = Move.ReadValue<Vector2>().y;
        float x = Move.ReadValue<Vector2>().x;
         Debug.Log(y + " " + x);
+        _isWalking = Move.ReadValue<Vector2>().magnitude > 0.1;
+        _isRunning = Move.ReadValue<Vector2>().magnitude > 0.9;
 
       
         rb = GetComponent<Rigidbody>();

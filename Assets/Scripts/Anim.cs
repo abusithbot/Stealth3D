@@ -2,35 +2,44 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Anim : MonoBehaviour
 {
-    public Animator anim;
+    public Animator animator;
     private PlayerController controller;
     public Rigidbody rb;
+    PlayerInput input;
+
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<PlayerController>();
         rb = GetComponent<Rigidbody>(); 
+       
+    }
+
+    private void Awake()
+    {
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        anim.SetFloat("Forward/Backward", rb.velocity.magnitude);
-        anim.SetFloat("Left/Right", rb.velocity.magnitude);
+  
+        
+            animator.SetBool("Walk", (controller._isWalking));
+            animator.SetBool("Run", (controller._isRunning));
+        
 
-        if (Input.GetButton("up"))
-        {
-            anim.SetBool("Walk", true);
-        }
+       
+        float v = rb.velocity.magnitude;
+        if(v > 0.1) Debug.Log(v);
+        
 
         /*anim.SetBool("Walk",true);
-        anim.SetBool("Run",true);
-        anim.SetBool("Crouch",true);
-        float v = rb.velocity.magnitude;
-        if(v > 0.1) Debug.Log(v);*/
+        animator.SetBool("Crouch",true);*/
     }
 }

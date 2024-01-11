@@ -56,6 +56,17 @@
                 },
                 {
                     "name": "",
+                    "id": "74e5a0fe-e2d5-4161-9414-148abf1e4d7c",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "760c881a-0f4f-4b82-8c28-9c29b82ee801",
                     "path": "<Gamepad>/leftStick",
                     "interactions": "",
@@ -133,6 +144,17 @@
                 },
                 {
                     "name": "",
+                    "id": "d48b42d8-328e-42ad-94a9-ebb8b8810b45",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "519a71fd-d28f-403f-a30b-bda6b2c5cb04",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
@@ -146,6 +168,17 @@
                     "name": "",
                     "id": "0c7c240a-7507-4159-a96d-46cdc97900e6",
                     "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e41d2558-e706-4fa8-83a5-acef89746e5e",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
