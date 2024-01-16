@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
@@ -24,6 +25,8 @@ public class PlayerController : MonoBehaviour
        _groundDetection = GetComponent<GroundDetection>();
            
     }
+
+    
     void Update()
     {
        float y = Move.ReadValue<Vector2>().y;
